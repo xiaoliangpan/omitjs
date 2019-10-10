@@ -12,17 +12,8 @@
     "noImplicitReturns": true,
     "suppressImplicitAnyIndexErrors": true,
     "moduleResolution": "node",
-    "rootDirs": [
-      "/src",
-      "/test",
-      "/mock",
-      "./typings"
-    ],
     "allowJs": true,
-    "experimentalDecorators": true,
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "experimentalDecorators": true
   },
   "include": [
     "./src"

@@ -1,9 +1,11 @@
 {
-  "name": "omitjs",
+  "name": "@panxiaoliang/omit",
   "version": "1.0.0",
   "description": "Utility function to create a shallow copy of an object which had dropped some fields.",
   "main": "dist/index.js",
+  "module": "dist/index.js",
   "types": "index.d.ts",
+  "private": false,
   "files": [
     "dist",
     "index.d.ts"
