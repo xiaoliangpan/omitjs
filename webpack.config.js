@@ -7,7 +7,7 @@ module.exports = {
         path: path.resolve(__dirname, 'dist'),
         filename: "index.js",
         library: 'omit',
-        libraryTarget: "umd"
+        libraryTarget: "window"
     },
     module: {
         rules: [
