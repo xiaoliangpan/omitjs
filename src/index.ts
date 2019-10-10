@@ -11,5 +11,5 @@ const omit: Omit = (obj, fields) => {
     return shallowCopy;
 };
 
-export default omit;
+export {omit};
 
